@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@700&display=swap');
+
+#main{
+    background-color:rgb(255, 72, 27)  ;border-radius:40px ;color: rgb(255, 255, 255);letter-spacing: 2px;font-family: 'Baloo 2', cursive;box-shadow: 2px 2px 10px rgb(255, 72, 27)
+    ;
+ 
+}
+
+#Dog{
+    background-color:rgb(255, 72, 27)  ;border-radius:40px ;color: rgb(255, 255, 255);letter-spacing: 2px;font-family: 'Baloo 2', cursive;box-shadow: 2px 2px 10px rgb(255, 72, 27)
+    ;
+   
+}
+#Dog:hover{
+    background-color: transparent;color: rgb(255, 72, 27) ;font-family: 'Baloo 2', cursive;border:1px solid rgb(255, 72, 27)  ;letter-spacing: 2px;box-shadow: none;transition: 0.3s ease-in-out;
+}
+
+#main:hover{
+
+color: white;
+
+  transition: 0.5s;
+
+}
+
+
+#butt{
+    background-color:rgb(255, 72, 27)  ;border-radius:40px ;color: rgb(255, 255, 255);letter-spacing: 2px;font-family: 'Baloo 2', cursive;box-shadow: 2px 2px 10px rgb(255, 72, 27)
+    ;
+ 
+}
+
+
+
+#butt:hover{
+transform: translateY(-5px);
+   transition: 0.3s;
+   
+}
+#category{
+    border-radius: 20px;
+}
+
+
+#category:hover{
+
+    border-radius: 20px;
+
+transition: 0.3s;
+filter: brightness(90%);
+}
+.nav-link{
+    color: rgb(73, 36, 9);
+    font-family: 'Baloo 2', cursive;
+    font-size: 20px;
+}
+
+.nav-item{
+    padding: 5px 8px;
+}
+
+#cate{
+    color: rgb(0, 0, 0);letter-spacing: 4px;border-radius:40px;
+    transition: 0.3s ease-in-out;  background: linear-gradient(to left,#02AAB0, #00CDAC);
+}
+#cate:hover{
+    background: linear-gradient(to left,#02AAB0, #00CDAC);
+ color: white;
+transform: translateY(-5px);
+}
+
+
+
+#c:hover{
+
+box-shadow:var(--box-shadow);
+transform: scale(1.1);
+transition: ease 0.5s;
+
+}
+
+@media screen and (max-width:768px)
+{
+
+     
+}
+
+@media screen and (max-width:425px)
+{
+
+
+     
+}
