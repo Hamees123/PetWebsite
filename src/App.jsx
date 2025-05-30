@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route,Link } from 'react-router-dom';
 import Home from './Home';
 import Pets from './Pets';
 
@@ -16,10 +16,10 @@ function App() {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav mx-auto">
           <li className="nav-item">
-            <a className="nav-link " aria-current="page" href="/" style={{color: 'rgb(73, 36, 9)'}}>Home</a>
+            <Link className="nav-link " aria-current="page" to="/" style={{color: 'rgb(73, 36, 9)'}}>Home</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/pets" style={{color: 'rgb(73, 36, 9)'}}>Pets</a>
+            <Link className="nav-link" to="/pets" style={{color: 'rgb(73, 36, 9)'}}>Pets</Link>
           </li>
         
         </ul>
