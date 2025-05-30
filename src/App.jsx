@@ -5,6 +5,7 @@ import Pets from './Pets';
 
 function App() {
   return (
+    <Router>
     <>
 
 <nav className="navbar navbar-expand-lg navbar- ">
@@ -30,7 +31,7 @@ function App() {
     </div>
   </nav>
 
-<Router>
+
 <Routes>
 
 <Route path='/' element={<Home/>}/>
@@ -38,7 +39,7 @@ function App() {
 
 
 </Routes>
-</Router>
+
 
 
 <footer>
@@ -100,6 +101,7 @@ function App() {
   </footer>
 
     </>
+      </Router>
   );
 }
 
